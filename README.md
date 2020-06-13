@@ -47,9 +47,11 @@ The VARI dataset is split to the training set and testing set, among which the t
             
 ## Evaluation Metrics:
 
-We adopt the popular mean Average Precision (mAP) and Cumulative Matching Cure (CMC) as in other ReID works. Besides, we host a challenge in Evalai. You can test the performance on our VRAI through this challenge.<br>
+We adopt the popular mean Average Precision (mAP) and Cumulative Matching Cure (CMC) as in other ReID works. Besides, we host a challenge in Evalai. You can test the performance on our VRAI through this challenge. We also provide an example submission submission_t.json for you.
 
-We provide an example submission submission_t.json here.
+
+Our VRAI can be download here:
+
 
 Google Drive:
 <a href='https://drive.google.com/drive/folders/1nsxZjrGvO1wfqas_rWTd9TxCeMyLWqMm?usp=sharing'>Google</a>
