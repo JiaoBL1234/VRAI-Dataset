@@ -50,7 +50,7 @@ The VARI dataset is split to the training set and testing set, among which the t
 We adopt the popular mean Average Precision (mAP) and Cumulative Matching Cure (CMC) as in other ReID works. Besides, we host a challenge in Evalai. You can test the performance on our VRAI through this challenge. We also provide an example submission submission_t.json for you.
 
 
-Our VRAI can be download here:
+You can download our VRAI dataset at:
 
 
 Google Drive:
@@ -59,5 +59,7 @@ Google Drive:
 Baiduyun:
 <a href='https://drive.google.com/drive/folders/1nsxZjrGvO1wfqas_rWTd9TxCeMyLWqMm?usp=sharing'>Baiduyun</a>
 
+## Statement:
 
+Our VRAI is prohibited for any commercial using. Any research on our VRAI should refer to 
 
