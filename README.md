@@ -1,5 +1,5 @@
 # VRAI-Dataset
-The VRAI Vehicle Re-identification Dataset
+The VRAI Vehicle Re-identification Dataset.
 
 Our VRAI is released now！<br>
 
@@ -61,9 +61,15 @@ Baiduyun:
 
 ## Statement:
 
-Our VRAI is prohibited for any commercial using. If you use VRAI dataset in your research you should to refer to our work as the following BibTeX entry.
+Our VRAI is prohibited for any commercial using. If you use VRAI dataset in your research, you should to refer to our work as the following BibTeX entry.
 
-
-
+```
+@inproceedings{Zheng2015scalable,
+  title={Vehicle Re-identification in Aerial Imagery : Dataset and Approach},
+  author={Peng, Wang and Bingliang, Jiao and Lu, Yang and Shizhou, Zhang and Wei, Wei and Yanning, Zhang},
+  booktitle={Proc. IEEE Int. Conf. Comp. Vis.},
+  year={2019}
+} 
+```
 
 
