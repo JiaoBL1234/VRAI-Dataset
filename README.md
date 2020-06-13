@@ -61,5 +61,9 @@ Baiduyun:
 
 ## Statement:
 
-Our VRAI is prohibited for any commercial using. Any research on our VRAI should refer to 
+Our VRAI is prohibited for any commercial using. If you use VRAI dataset in your research you should to refer to our work as the following BibTeX entry.
+
+
+
+
 
