@@ -43,8 +43,9 @@ The VARI dataset is split to the training set and testing set, among which the t
                       keypoint_label: A dictionary to store the mapping from Image Names to Vehicle Discriminative Parts Bounding Boxes. 
                       test_gallery_order: A list to store Image Names in gallery set. It also reflects the Serial Number of gallery images. 
                       test_query_order: A list to store Image Names in query set. It also reflects the Serial Number of query images. 
-            
-            
+
+The values of color_label is 1, 2, ... , 8 which represent to the color of White, Black, Gray, Red, Green, Blue, Yellow, Brown and Others. The values of type_label 1, 2, ... , 6 which represent to the vehicle type of Sedan, Hatchback, SUV, Bus, Lorry, Truck and Others. The distributions of each categories of color and vehicle type is slightly different from the statistical informations in our <a href='https://arxiv.org/pdf/1904.01400.pdf'>paper</a> since we have cleaned up the anntotaion again.
+             
 ## Evaluation Metrics:
 
 We adopt the popular mean Average Precision (mAP) and Cumulative Matching Cure (CMC) as in other ReID works. Besides, we host a challenge in Evalai. You can test the performance on our VRAI through this challenge. We also provide an example submission submission_t.json for you.
