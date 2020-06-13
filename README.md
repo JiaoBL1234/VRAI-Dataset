@@ -39,12 +39,12 @@ The VARI dataset is split to the training set and testing set, among which the t
                       test_im_names: The File Names of images in the testing set.
                       color_label: A dictionary to store the mapping from Image Names to Vehicle Color Labels.
                       type_label: A dictionary to store the mapping from Image Names to Vehicle Type Labels.
-                      bumper_label: & wheel_label & sky_label & luggage_label A dictionary to store the mapping from Image Names to Vehicle Attributes. 
+                      bumper_label & wheel_label & sky_label & luggage_label: A dictionary to store the mapping from Image Names to Vehicle Attributes. 
                       keypoint_label: A dictionary to store the mapping from Image Names to Vehicle Discriminative Parts Bounding Boxes. 
                       test_gallery_order: A list to store Image Names in gallery set. It also reflects the Serial Number of gallery images. 
                       test_query_order: A list to store Image Names in query set. It also reflects the Serial Number of query images. 
 
-The values of color_label is 1, 2, ... , 8 which represent to White, Black, Gray, Red, Green, Blue, Yellow, Brown and Others. The values of type_label 1, 2, ... , 6 which represent to Sedan, Hatchback, SUV, Bus, Lorry, Truck and Others. The distributions of each categories of color and vehicle type is slightly different from the statistical informations in our <a href='https://arxiv.org/pdf/1904.01400.pdf'>paper</a>, since we have cleaned up the annotation again.
+The values of color_label are 1, 2, ... , 8 which represent to White, Black, Gray, Red, Green, Blue, Yellow, Brown and Others. The values of type_label are 1, 2, ... , 6 which represent to Sedan, Hatchback, SUV, Bus, Lorry, Truck and Others. The values of bumper_label, and wheel_label, sky_label and luggage_label are 0,1 which represent to whether vehicle instances contain these attributes or not. The distributions of each categories of color and vehicle type is slightly different from the statistical informations in our <a href='https://arxiv.org/pdf/1904.01400.pdf'>paper</a>, since we have cleaned up the annotation again.
              
 ## Evaluation Metrics:
 
