@@ -36,7 +36,7 @@ The VARI dataset is split to the training set and testing set, among which the t
 ### Testing_Small set:
     Image name: Random_string_Cams.jpg, such as 00AV11D2_C1.jpg, the 00AV11D2 is a random string and the C1 indicates image is captured by camera 1.
     Annotation files: test_small_annotation.pkl
-                      test_small_im_names: The File Names of images in the Validation set.
+                      test_small_im_names: The File Names of images in the Testing_Small set.
                       color_label: A dictionary to store the mapping from Image Names to Vehicle Color Labels.
                       type_label: A dictionary to store the mapping from Image Names to Vehicle Type Labels.
                       bumper_label & wheel_label & sky_label & luggage_label: A dictionary to store the mapping from Image Names to Vehicle Attributes.
