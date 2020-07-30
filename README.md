@@ -11,7 +11,7 @@ Our VRAI dataset is used for Vehicle Re-identification research in aerial imager
 ## Dataset partition:
 
 
-The VARI dataset is split to the training set and testing set, among which the training set contains 66,113 images with 6,302 IDs, and the test set contains 71,500 images with 6,720 IDs. Besides, we subsample a subset from the testing set as the testing_small set. The testing_small set contains 10% images of testing set.<br>
+The VARI dataset is split to the training set and testing set, among which the training set contains 66,113 images with 6,302 IDs, and the test set contains 71,500 images with 6,720 IDs. Besides, we subsample a subset from the testing set as the testing_dev set. The testing_dev set contains 10% images of testing set.<br>
 
 ## Annotation:
 
@@ -22,7 +22,7 @@ The VARI dataset is split to the training set and testing set, among which the t
                       color_label: A dictionary to store the mapping from IDs to Vehicle Color Labels.
                       type_label: A dictionary to store the mapping from IDs to Vehicle Type Labels.
                       bumper_label & wheel_label & sky_label & luggage_label: A dictionary to store the mapping from IDs to Vehicle Attributes.
-                      keypoint_label: A dictionary to store the mapping from Image Names to Vehicle Discriminative Parts Bounding Boxes.
+                      d_part_label: A dictionary to store the mapping from Image Names to Vehicle Discriminative Parts Bounding Boxes.
 ### Testing set:
     Image name: Random_string_Cams.jpg such as 00AV11D2_C1.jpg, the 00AV11D2 is a random string and the C1 indicates this image is captured by camera 1.
     Annotation files: test_annotation.pkl
@@ -30,19 +30,19 @@ The VARI dataset is split to the training set and testing set, among which the t
                       color_label: A dictionary to store the mapping from Image Names to Vehicle Color Labels.
                       type_label: A dictionary to store the mapping from Image Names to Vehicle Type Labels.
                       bumper_label & wheel_label & sky_label & luggage_label: A dictionary to store the mapping from Image Names to Vehicle Attributes. 
-                      keypoint_label: A dictionary to store the mapping from Image Names to Vehicle Discriminative Parts Bounding Boxes. 
-                      test_gallery_order: A list to store Image Names in gallery set. It also reflects the Index of gallery images. 
-                      test_query_order: A list to store Image Names in query set. It also reflects the Index of query images. 
-### Testing_Small set:
+                      d_part_label: A dictionary to store the mapping from Image Names to Vehicle Discriminative Parts Bounding Boxes. 
+                      gallery_order: A list to store Image Names in gallery set. It also reflects the Index of gallery images. 
+                      query_order: A list to store Image Names in query set. It also reflects the Index of query images. 
+### Testing_Dev set:
     Image name: Random_string_Cams.jpg, such as 00AV11D2_C1.jpg, the 00AV11D2 is a random string and the C1 indicates image is captured by camera 1.
-    Annotation files: test_small_annotation.pkl
-                      test_small_im_names: The File Names of images in the Testing_Small set.
+    Annotation files: test_dev_annotation.pkl
+                      dev_im_names: The File Names of images in the Testing_Dev set.
                       color_label: A dictionary to store the mapping from Image Names to Vehicle Color Labels.
                       type_label: A dictionary to store the mapping from Image Names to Vehicle Type Labels.
                       bumper_label & wheel_label & sky_label & luggage_label: A dictionary to store the mapping from Image Names to Vehicle Attributes.
-                      keypoint_label: A dictionary to store the mapping from Image Names to Vehicle Discriminative Parts Bounding Boxes.
-                      test_small_gallery_order: A list to store Image Names in gallery set. It also reflects the Index of gallery images.
-                      test_small_query_order: A list to store Image Names in query set. It also reflects the Index of query images.
+                      d_part_label: A dictionary to store the mapping from Image Names to Vehicle Discriminative Parts Bounding Boxes.
+                      gallery_order: A list to store Image Names in gallery set. It also reflects the Index of gallery images.
+                      query_order: A list to store Image Names in query set. It also reflects the Index of query images.
 The values of color_label are 1, 2, ... , 8 which represent to White, Black, Gray, Red, Green, Blue, Yellow, Brown and Others. The values of type_label are 1, 2, ... , 6 which represent to Sedan, Hatchback, SUV, Bus, Lorry, Truck and Others. The values of bumper_label, and wheel_label, sky_label and luggage_label are 0,1 which represent to whether vehicle instances contain these attributes or not. The distributions of each categories of color and vehicle type is slightly different from the statistical informations in our <a href='https://arxiv.org/pdf/1904.01400.pdf'>paper</a>, since we have cleaned up the annotation again.
              
 ## Evaluation Metrics:
