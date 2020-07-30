@@ -11,7 +11,7 @@ Our VRAI dataset is used for Vehicle Re-identification research in aerial imager
 ## Dataset partition:
 
 
-The VARI dataset is split to the training set and testing set, among which the training set contains 66,113 images with 6,302 IDs, and the test set contains 71,500 images with 6,720 IDs. Besides, we subsample a subset from the testing set as the testing_dev set. The testing_dev set contains 10% images of testing set.<br>
+The VARI dataset is split to the training set and testing set, among which the training set contains 66,113 images with 6,302 IDs, and the test set contains 71,500 images with 6,720 IDs. Besides, we subsample a subset from the testing set as the testing_dev set. The testing_dev set contains 20% images of testing set.<br>
 
 ## Annotation:
 
