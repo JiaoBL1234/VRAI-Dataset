@@ -54,7 +54,7 @@ You can download our VRAI dataset at:
 
 
 Google Drive:
-<a href='https://drive.google.com/drive/folders/1nsxZjrGvO1wfqas_rWTd9TxCeMyLWqMm?usp=sharing'>Google</a>
+<a href='https://drive.google.com/drive/folders/1S8BCBDHxXJeqyv8v6LFWS5EZHvVdrHeN?usp=sharing'>Google</a>
 
 Baiduyun:
 <a href='https://pan.baidu.com/s/1qNAMBW4VbiF9InG14BIMKA '>Baiduyun</a>
