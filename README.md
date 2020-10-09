@@ -47,7 +47,7 @@ The values of color_label are 1, 2, ... , 8 which represent to White, Black, Gra
              
 ## Evaluation Metrics:
 
-We adopt the popular mean Average Precision (mAP) and Cumulative Matching Cure (CMC) as in other ReID works. Besides, we host a challenge in Evalai. You can test the performance on our VRAI through this challenge. We also provide an example submission submission_t.json for you.
+We adopt the popular mean Average Precision (mAP) and Cumulative Matching Cure (CMC) as in other ReID works. Besides, we host a challenge in <a href='https://evalai.cloudcv.org'>Evalai</a>. You can test the performance on our VRAI through this challenge. We also provide an example submission submission_t.json for you.
 
 
 You can download our VRAI dataset at:
